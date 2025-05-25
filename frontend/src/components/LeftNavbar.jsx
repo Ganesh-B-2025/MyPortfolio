@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './LeftNavbar.css';
-import profilePic from '../assets/profilePic.jpg';
+import profilePic from '../assets/profilePic.JPG';
 import { NavLink } from 'react-router-dom';
 
 const LeftNavbar = () => {
