@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Home.css';
-import backgroundImage from './backgroundImage.jpg';
+import backgroundImage from './backgroundImage.JPG';
 import Ganesh from './Ganesh.pdf'
 
 const Home = () => {
