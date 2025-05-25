@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Home.css';
-import backgroundImage from '../../assets/backgroundImage.jpg';
-import Ganesh from '../../assets/Ganesh.pdf'
+import backgroundImage from './backgroundImage.jpg';
+import Ganesh from './Ganesh.pdf'
 
 const Home = () => {
   const roles = ["Web Developer", "MERN Stack Developer", "JAVA Developer"];
