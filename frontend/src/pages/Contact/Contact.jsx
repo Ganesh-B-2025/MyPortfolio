@@ -26,7 +26,7 @@ const Contact = () => {
   const handleSubmit = async(e) =>{
     e.preventDefault();
     try{
-      const response = await axios.post(`http://localhost:2025/api/contact/`, data);
+      const response = await axios.post("https://myportfolio-frontend-sz30.onrender.com", data);
         toast.success(response.data.message || `Thankyou so much Mr./ Miss.${response.data.name} i will get back to you`)
         setData({
           name:'',
