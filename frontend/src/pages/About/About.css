@@ -1,0 +1,78 @@
+.about-container {
+  padding: 30px 40px;
+  background-color: #fff;
+  color: #333;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #007BFF;
+  display: inline-block;
+}
+
+.intro-text {
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.bio-section {
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.profile-pic {
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.bio-content {
+  flex: 1;
+  min-width: 280px;
+}
+
+.bio-content .below-para{
+    margin: 20px 0px 30px 0px;
+}
+
+.role-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.bio-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  font-size: 15px;
+}
+
+.info-item {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.info-grid .info-item i{
+    font-size: 10px;
+    color: #007BFF;
+    height: 10px;
+    scale: 1.3;
+}

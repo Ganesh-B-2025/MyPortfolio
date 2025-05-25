@@ -1,0 +1,70 @@
+.resume-container {
+  padding: 60px 40px;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #007BFF;
+  display: inline-block;
+}
+
+.resume-intro {
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.resume-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.resume-heading {
+  font-size: 20px;
+  margin: 25px 0 10px;
+  color: #007BFF;
+}
+
+.resume-box {
+  background: #f9f9f9;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-left: 3px solid #007BFF;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.resume-box h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.resume-box h4 {
+  font-size: 15px;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.resume-box p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.resume-box ul {
+  padding-left: 20px;
+  font-size: 14px;
+  color: #444;
+}
+
+.resume-box ul li {
+  margin-bottom: 6px;
+}

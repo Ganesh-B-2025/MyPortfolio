@@ -1,0 +1,66 @@
+.publications-container {
+  padding: 60px 40px;
+  background-color: #f9f9f9;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #007BFF;
+  display: inline-block;
+}
+
+.publications-intro {
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.publication-box {
+  background: #fff;
+  padding: 25px 30px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
+  border-left: 4px solid #007BFF;
+  border-radius: 8px;
+}
+
+.publication-box h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.publication-box p {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.publication-box ul {
+  padding-left: 20px;
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.publication-box ul li {
+  margin-bottom: 6px;
+}
+
+.publication-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007BFF;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.publication-link:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
