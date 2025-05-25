@@ -13,11 +13,8 @@ const LeftNavbar = () => {
   return (
     <>
       <div className={`navbar ${isOpen ? 'open' : ''}`}>
-        <span style={{
-          fontSize:'20px',
-          fontWeight:'500',
-        }}>Passionate Web Developer</span>
-
+      <span className="tagline">Passionate Web Developer</span>
+      
         <img src={profilePic} className='profile' alt="Profile" />
         <span className='name'>Ganesh B</span>
 
