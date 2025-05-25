@@ -1,5 +1,4 @@
 import React from 'react';
-import LeftNavbar from './components/LeftNavbar';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
@@ -7,6 +6,7 @@ import Resume from './pages/Resume/Resume';
 import Project from './pages/Project/Project';
 import Contact from './pages/Contact/Contact';
 import Publications from './pages/Internship/Publications';
+import LeftNavbar from './components/LeftNavbar/LeftNavbar';
 
 const App = () => {
   return (
