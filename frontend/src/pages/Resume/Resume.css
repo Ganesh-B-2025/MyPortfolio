@@ -1,12 +1,12 @@
 .resume-container {
-  padding: 60px 40px;
+  padding: 40px 20px;
   background-color: #fff;
   font-family: 'Segoe UI', sans-serif;
   color: #333;
 }
 
 .section-title {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 600;
   margin-bottom: 20px;
   border-bottom: 2px solid #007BFF;
@@ -14,7 +14,7 @@
 }
 
 .resume-intro {
-  font-size: 16px;
+  font-size: 1rem;
   margin-bottom: 30px;
   line-height: 1.6;
 }
@@ -23,11 +23,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
-  flex-wrap: wrap;
 }
 
 .resume-heading {
-  font-size: 20px;
+  font-size: 1.25rem;
   margin: 25px 0 10px;
   color: #007BFF;
 }
@@ -41,30 +40,84 @@
 }
 
 .resume-box h3 {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
 .resume-box h4 {
-  font-size: 15px;
+  font-size: 0.95rem;
   font-weight: 500;
   color: #555;
   margin-bottom: 5px;
 }
 
 .resume-box p {
-  font-size: 14px;
+  font-size: 0.9rem;
   color: #666;
   margin-bottom: 10px;
 }
 
 .resume-box ul {
   padding-left: 20px;
-  font-size: 14px;
+  font-size: 0.9rem;
   color: #444;
 }
 
 .resume-box ul li {
   margin-bottom: 6px;
+}
+
+/* -------------------------------------------
+   RESPONSIVE DESIGN
+-------------------------------------------- */
+
+/* Tablets (<= 991px) */
+@media (max-width: 991px) {
+  .resume-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+  }
+
+  .resume-heading {
+    font-size: 1.2rem;
+  }
+
+  .resume-box h3 {
+    font-size: 1rem;
+  }
+}
+
+/* Phones (<= 600px) */
+@media (max-width: 600px) {
+  .resume-container {
+    padding: 30px 15px;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .resume-intro {
+    font-size: 0.95rem;
+  }
+
+  .resume-box {
+    padding: 12px 15px;
+  }
+
+  .resume-box h3,
+  .resume-box h4,
+  .resume-box p,
+  .resume-box ul {
+    font-size: 0.875rem;
+  }
+
+  .resume-box ul {
+    padding-left: 15px;
+  }
 }
