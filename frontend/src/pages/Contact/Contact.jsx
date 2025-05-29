@@ -26,7 +26,7 @@ const Contact = () => {
   const handleSubmit = async(e) =>{
     e.preventDefault();
     try{
-      const response = await axios.post("https://ganesh-portfolio-backend-steel.vercel.app/", data);
+      const response = await axios.post("ganesh-portfolio-backend-steel.vercel.app", data);
         toast.success(response.data.message || `Thankyou so much Mr./ Miss.${response.data.name} i will get back to you`)
         setData({
           name:'',
