@@ -20,14 +20,6 @@ const Project = () => {
             <li><strong>Modern Tech Stack:</strong> Developed a responsive and interactive web application using HTML, CSS, JavaScript, Flask (backend), and MySQL (database).</li>
             <li><strong>AI & Rule-Based Recommendations:</strong> Combined rule-based logic with AI models to deliver accurate, user-specific Ayurvedic prescriptions and wellness guidance.</li>
           </ul>
-                    <a 
-            href=https://github.com/Ganesh-B-2025/Ayurcare"https://github.com/Gani-java/Employee-Management-System-Using-JAVA-/tree/master/src/main"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="project-link"
-          >
-            🔗 View on GitHub
-          </a>
         </div>
 
         <div className="project-box">
